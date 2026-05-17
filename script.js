@@ -56,10 +56,18 @@ let userProfile = {
     accountBalance: undefined,
     accountType: ['Salary Account', 'Personal Account']
 };
-
 let updateAccount = userProfile;
-updateAccount.branch = "Kumbakonam";
+updateAccount.branch= "kumbakonam";
 
-// console.log(typeof userProfile);
+console.log(typeof userProfile); // object
 console.log(userProfile.accountNumber);
-console.log(userProfile);
+console.log(userProfile); // kumbakonam
+console.log(updateAccount); // kumbakonam
+
+// (or)
+
+userProfile.branch= "kumbakonam";
+
+console.log(typeof userProfile); // object
+console.log(userProfile.accountNumber);
+console.log(userProfile); // kumbakonam
