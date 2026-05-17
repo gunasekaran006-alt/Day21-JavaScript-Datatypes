@@ -30,7 +30,7 @@ console.log(typeof userLogged);
 let paymentStatus;
 console.log(typeof paymentStatus);
 
-// Reference Data Types
+// Non-Primitive / Reference Types
 // object, array, function
 
 // array
@@ -46,6 +46,7 @@ function welcome(){
 }
 welcome();
 
+// object
 let userProfile = {
     username: "Lakshmi Narasimhan",
     accountNumber: 9997131834123,
